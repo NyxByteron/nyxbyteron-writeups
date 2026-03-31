@@ -17,8 +17,17 @@ One of the great advantages of Linux systems is that in general they are lighter
 
 ## 💻 Running my first Linux commands
 
+In this module I logged into my first Linux machine (running in a browser) and executed my first commands.  
+
+echo → The echo command shows text on the terminal. (example: echo hello)  
+If I want to show more than one word I need to use the double quotes. (example: echo "hello friend")  
+whoami → This command is used to find out the username I'm logged in with.
+
 ---
 
+## 📁 Interacting with the filesystem  
+
+---
 ## 💭 Notes
 
 -
