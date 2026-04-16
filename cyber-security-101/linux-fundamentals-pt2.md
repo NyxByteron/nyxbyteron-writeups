@@ -36,5 +36,17 @@ In summary, there are many flags and switches, and they are very useful, but the
 
 --- 
 
-## 📂 Filesystem Interaction Continued
+## 📂 Filesystem Interaction Continued  
 
+In this module I learned how to interact with the Linux filesystem, such as creating, moving, and renaming files.  
+
+Creating files  
+touch → Command to create files. "touch note" creates a file named note. However, to insert content, it is necessary to use commands like echo or text editors like nano.  
+mkdir → Command to create a directory. "mkdir directory" creates a directory called directory.  
+
+Removing files  
+rm → Command to remove files and directories. "rm note" removes the note file. To remove directories, it is necessary to use -R(recursively) option. For example, rm -R directory.  
+
+Copying and moving files  
+cp → Command to copy files. To copy a file, it is necessary to use two arguments. The first is the name of the file to be copied, and the second is the name of new file. For example, "cp note note2".  
+mv → Command to moves and rename files. It needs two arguments like cp, but instead of creating a second file, it replaces the second file. mv can be used to change the name of a file or directory.
