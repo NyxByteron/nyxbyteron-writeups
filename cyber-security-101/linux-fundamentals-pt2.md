@@ -49,4 +49,9 @@ rm → Command to remove files and directories. "rm note" removes the note file.
 
 Copying and moving files  
 cp → Command to copy files. To copy a file, it is necessary to use two arguments. The first is the name of the file to be copied, and the second is the name of new file. For example, "cp note note2".  
-mv → Command to moves and rename files. It needs two arguments like cp, but instead of creating a second file, it replaces the second file. mv can be used to change the name of a file or directory.
+mv → Command to moves and rename files. It needs two arguments like cp, but instead of creating a second file, it replaces the second file. mv can be used to change the name of a file or directory.  
+
+Determining the file type  
+Usually we see files with extensions like .txt, .pdf, but this isn't necessarily mandatory. The lack of an extension can cause confusion when we are faced with a file without an exetension and don't know the context.  
+To help with this problem, we can use the "file" command. For example, "file note" will return the file type, something like: ASCII text.  
+file → shows the file type.
